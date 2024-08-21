@@ -1,0 +1,200 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+li:nth-child(3) a{
+  color: aqua;
+}
+
+/* spotlight */
+
+img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.wrapper {
+  height: 100vh;
+  width: 100vw;
+  /* background-color: red; */
+  display: flex;
+}
+.container1 {
+  /* background-color: aqua; */
+  flex: 1;
+}
+.container12 {
+  display: flex;
+  flex-direction: column;
+  margin: 25% 0 0 10%;
+  grid-gap: 40px;
+}
+.container2 {
+  background-color: #f5a45b;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image {
+  background-color: #f6ad6b;
+  border-radius: 50%;
+  height: 70%;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20%;
+}
+.icon {
+  width: 20px;
+  height: 20px;
+}
+.mainicon {
+  display: flex;
+  grid-gap: 8px;
+}
+.mainicon a {
+  display: block;
+}
+.mainicon a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-gap: 5px;
+}
+.firstline {
+  font-weight: 400;
+  font-size: 24px;
+  color: #676462;
+}
+.secondline {
+  font-weight: 500;
+  font-size: 65px;
+}
+.paragraph {
+  font-weight: 400;
+  font-size: 24px;
+}
+.line {
+  display: flex;
+  align-items: center;
+}
+.line div {
+  height: 1px;
+  width: 135px;
+  background-color: #f5ac6b;
+}
+hr {
+  width: 120px;
+  border: 1px solid blue;
+}
+
+/* header */
+
+.navigation {
+  height: 120px;
+  position: absolute;
+  width: 100vw;
+  background-color: rgba(255, 255, 255, 0.3);
+  display: flex;
+  align-items: center;
+}
+header {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: space-around;
+  /* width: 50%; */
+}
+li a {
+  color: black;
+}
+header li a:hover {
+  text-decoration: underline cadetblue;
+}
+
+.navigation ul {
+  display: flex;
+  grid-gap: 50px;
+}
+li {
+  font-weight: 400;
+  font-size: 20px;
+  color: white;
+}
+.logo {
+  flex: 1;
+  font-size: 40px;
+  border-bottom: #f5a45b solid 1px;
+  margin: 51px 0 34px 83px;
+}
+.logo a {
+  /* margin-left: 10%; */
+  color: #f5a45b;
+}
+.logo h1 {
+  margin-bottom: 32px;
+}
+.button {
+  background-color: #f5a45b;
+  width: auto;
+  height: auto;
+  padding: 1%;
+  text-align: center;
+  align-content: center;
+}
+.button a {
+  color: white;
+  font-weight: 400;
+  font-size: 20px;
+}
+.button a:hover {
+  color: cadetblue;
+}
+.purchase {
+  background-color: #f5a45b;
+  width: auto;
+  height: auto;
+  padding: 1%;
+  align-content: center;
+}
+.purchase h3 {
+  color: white;
+}
+.purchase h3:hover {
+  color: cadetblue;
+}
+.contact {
+  background-color: #d5cdc58a;
+  width: auto;
+  height: auto;
+  padding: 1%;
+  align-content: center;
+}
+.contact h3 {
+  color: grey;
+}
+.contact h3:hover {
+  color: cadetblue;
+}
+span {
+  color: #f5a45b;
+}
+
+.radius {
+  border-radius: 5px;
+}
+
