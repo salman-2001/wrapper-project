@@ -13,9 +13,9 @@ a {
 li {
   list-style-type: none;
 }
-li:nth-child(3) a{
+/* li:nth-child(3) a{
   color: aqua;
-}
+} */
 
 /* spotlight */
 
@@ -117,7 +117,6 @@ header {
   flex: 1;
   align-items: center;
   justify-content: space-around;
-  /* width: 50%; */
 }
 li a {
   color: black;
@@ -139,7 +138,7 @@ li {
   flex: 1;
   font-size: 40px;
   border-bottom: #f5a45b solid 1px;
-  margin: 51px 0 34px 83px;
+  margin: 54px 0 34px 83px;
 }
 .logo a {
   /* margin-left: 10%; */
