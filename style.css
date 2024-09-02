@@ -13,6 +13,21 @@ a {
 li {
   list-style-type: none;
 }
+
+/* font */
+
+@font-face {
+  font-family: 'Gorditas bold';
+  src: url('./asset/Font/Gorditas-Bold.woff2') format('woff2'),
+       url('./asset/Font/Gorditas-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Gorditas regular';
+  src: url('./asset/Font/Gorditas-Regular.woff2') format('woff2'),
+       url('./asset/Font/Gorditas-Regular.woff') format('woff');
+}
+
 /* li:nth-child(3) a{
   color: aqua;
 } */
@@ -81,12 +96,12 @@ img {
   color: #676462;
 }
 .secondline {
-  font-weight: 500;
-  font-size: 65px;
+  font-family: 'Gorditas bold';
+  font-size: 50px;
 }
 .paragraph {
-  font-weight: 400;
-  font-size: 24px;
+  font-family: 'Gorditas regular';
+  font-size: 20px;
 }
 .line {
   display: flex;
