@@ -90,6 +90,9 @@ img {
   justify-content: center;
   grid-gap: 5px;
 }
+.mainicon h3 {
+  font-family: 'Gorditas Regular';
+}
 .firstline {
   font-weight: 400;
   font-size: 24px;
@@ -135,6 +138,7 @@ header {
 }
 li a {
   color: black;
+  font-family: 'Gorditas Regular';
 }
 header li a:hover {
   text-decoration: underline cadetblue;
@@ -158,6 +162,7 @@ li {
 .logo a {
   /* margin-left: 10%; */
   color: #f5a45b;
+  font-family: 'Gorditas bold';
 }
 .logo h1 {
   margin-bottom: 32px;
@@ -174,6 +179,7 @@ li {
   color: white;
   font-weight: 400;
   font-size: 20px;
+  font-family: 'Gorditas Regular'
 }
 .button a:hover {
   color: cadetblue;
